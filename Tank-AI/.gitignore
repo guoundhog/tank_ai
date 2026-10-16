@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Windows release and PyInstaller
+build/
+dist/
+*.spec
+*.exe
+*.zip
+
+# Local settings / large AI artifacts (commit selected release models separately)
+.env
+logs/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
